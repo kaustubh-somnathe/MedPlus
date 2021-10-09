@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/webfont/roboto-bold-webfont.eot');
+    src: url('../fonts/webfont/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/webfont/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/webfont/roboto-bold-webfont.woff') format('woff'),
+         url('../fonts/webfont/roboto-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/webfont/roboto-medium-webfont.eot');
+    src: url('../fonts/webfont/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/webfont/roboto-medium-webfont.woff2') format('woff2'),
+         url('../fonts/webfont/roboto-medium-webfont.woff') format('woff'),
+         url('../fonts/webfont/roboto-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/webfont/roboto-regular-webfont.eot');
+    src: url('../fonts/webfont/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/webfont/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/webfont/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/webfont/roboto-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h2{color: #12436d;font-size: 32px; text-transform: uppercase; padding:40px; text-align: center;  font-family: 'robotoregular'; font-weight: bold;}
+h3{color: #fff; background-color: transparent;  text-transform: uppercase;  margin: 0;padding: 0; font-family: 'robotomedium';}
+h4{color: #fff; font-family: 'robotomedium'; margin: 0; padding: 0; }
+p{color: #fff; font-family: 'robotoregular'; background-color: rgba(17, 67, 115, 0.7);}
+
+.color-blue{color: #114373;}
+.color-white{color: #fff;}
+.btn{background-color: #062239; color: #fff; font-size: 15px;  border-radius: 3px;}
+.btn:hover{background-color: #fff; color: #062239; font-weight: bold; }
+.hr1{width: 100px; margin-top: -40px; border: 1px solid black;}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icon/icomoon.eot?r08t8s');
+  src:  url('../fonts/icon/icomoon.eot?r08t8s#iefix') format('embedded-opentype'),
+    url('../fonts/icon/icomoon.ttf?r08t8s') format('truetype'),
+    url('../fonts/icon/icomoon.woff?r08t8s') format('woff'),
+    url('../fonts/icon/icomoon.svg?r08t8s#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook-logo-button:before {
+  content: "\e900";
+}
+.icon-twitter-logo-button:before {
+  content: "\e901";
+}
+.icon-play:before {
+  content: "\e912";
+}
+.icon-pencil2:before {
+  content: "\e906";
+}
+.icon-images:before {
+  content: "\e90e";
+}
+.icon-mail2:before {
+  content: "\ea84";
+}

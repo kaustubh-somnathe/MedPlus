@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/webfont/roboto-bold-webfont.eot');
+    src: url('../fonts/webfont/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/webfont/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/webfont/roboto-bold-webfont.woff') format('woff'),
+         url('../fonts/webfont/roboto-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/webfont/roboto-medium-webfont.eot');
+    src: url('../fonts/webfont/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/webfont/roboto-medium-webfont.woff2') format('woff2'),
+         url('../fonts/webfont/roboto-medium-webfont.woff') format('woff'),
+         url('../fonts/webfont/roboto-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/webfont/roboto-regular-webfont.eot');
+    src: url('../fonts/webfont/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/webfont/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/webfont/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/webfont/roboto-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*login*/
+.main-login-div{background-color: #8adaf0; width: 550px; height: 300px; margin: auto;}
+.form-login-in-heading{padding: 30px; text-align: center; font-family: 'robotomedium';}
+.input-type1{margin-left: 70px; font-family: 'robotoregular'; min-height: 45px; font-size: 16px;}
+.input-type2{margin-left: 70px; margin-top: 15px; font-family: 'robotoregular';min-height: 45px; font-size: 16px; }
+.form-control{padding: 20px; width:400px; padding-left: 30px; }
+.btn{width: 100px; border-radius: 150px; margin-top: 35px; margin-left: 70px; font-size: 18px; }
+.btn:hover{background-color: white; color: #0c4b5c; border: 1px solid #8adaf0;}
+.forgot-password{margin-left: 160px; font-size: 16px; font-family: 'robotomedium'; }
+.form-group a{text-decoration: none;}
+
+/*register*/
+
+.register-div{width: 900px; height: 500px; background-color: #8adaf0; margin: auto;}
+.register-heading{padding: 30px; text-align: center; font-family: 'robotomedium';}
+.input1{margin-left: 20px; font-family: 'robotoregular'; min-height: 45px; font-size: 16px; }
+.input2{font-family: 'robotoregular'; min-height: 45px; font-size: 16px; }
+.input3{margin-left: 20px; font-family: 'robotoregular'; min-height: 45px; font-size: 16px; margin-top: 20px;}
+.input4{ font-family: 'robotoregular'; min-height: 45px; font-size: 16px; margin-top: 20px;}
+.input5{margin-left: 20px; font-family: 'robotoregular'; min-height: 45px; font-size: 16px; margin-top: 20px;}
+.input6{ font-family: 'robotoregular'; min-height: 45px; font-size: 16px; margin-top: 20px;}
+.input7{margin-left: 20px; font-family: 'robotoregular'; min-height: 45px; font-size: 16px; margin-top: 20px;}
+.input8{ font-family: 'robotoregular'; min-height: 45px; font-size: 16px; margin-top: 20px;}
+.btn-register{margin-left: 320px; margin-top: 70px;}
+.btn-reset{margin-left: 10px;margin-top: 70px;}
+
+/*otp*/
+.otp-section-div{width: 420px; height: 250px; background-color: #8adaf0; margin: auto;}
+.otp-heading{padding: 30px; text-align: center; font-family: 'robotomedium';}
+.input-type{margin-left: 50px; font-family:'robotoregular'; min-height: 45px; font-size: 16px; width: 320px; }
+.btn-otp{margin-left: 150px;}
+
+
+
+
+
+
+
+
